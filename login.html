@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Login page</title>
+<style>
+*{
+margin:0;
+padding:0px;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+background-image:url('image.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+.wrapper{
+width:420px;
+color:white;
+border-radius:10px;
+padding:40px 40px;
+border:1px solid grey;
+}
+h1{
+text-align:center;
+font-size:36px;
+ color:black;
+}
+ .wrapper .inputfield{
+width:100%;
+height:50px;
+margin:30px 0;
+
+}
+.inputfield input{
+width:100%;
+height:100%;
+background:transparent;
+border:none;
+border-radius:40px;
+border:2px solid grey;
+
+}
+input::placeholder{
+color:black;
+padding:10px;
+font-size:15px;
+ font-weight:600px;
+}
+.wrapper .rememberpass{
+display:flex;
+justify-content:space-between;
+margin:-15px 0 15px;
+font-size:14.5px;
+color:black;
+}
+
+ a{
+color:black;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+.btn{
+width:100%;
+border-radius:40px;
+height:45px;
+border:none;
+font-size:16px;
+background-color:#1877F2;
+}
+.wrapper .createaccount{
+text-align:center;
+font-size:14.5px;
+margin-top:20px;
+
+}
+ .wrapper .createaccount a{
+font-weight:600;
+font-size:20px;
+}
+.createaccount p{
+color:black;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<form class="">
+<h1>LOGIN</h1>
+<div class="inputfield">
+<input type="text" placeholder="username">
+</div>
+<div class="inputfield">
+<input type="password" placeholder="password">
+</div>
+<div class="rememberpass">
+<label><input type="checkbox">Remember me </label>
+<a href="#">Forget Password</a>
+</div>
+<div>
+<button class="btn">Login</button>
+<div class="createaccount">
+<p>Don't have an account ?<a href="#"> create a new account</a></p>
+</div>
+</body>
+</html>
